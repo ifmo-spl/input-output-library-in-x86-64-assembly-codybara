@@ -1,5 +1,6 @@
 section .text
 
+db "hello!"
 string_length:
     xor rax, rax
     ret
